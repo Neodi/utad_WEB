@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular Area</title>
+    <link rel="stylesheet" href="calc.css">
+    <script src="calc.js"></script>
+</head>
+<body>
+    <p id="instrucciones">Introduzca la base y la altura de la que quiera calcular el area</p>
+    <input type="radio" id="Triangulo" name="areas" value="Triangulo">
+        <label for="Triangulo">Triangulo</label>
+
+    <input type="radio" id="Cuadrado" name="areas" value="Cuadrado">
+        <label for="Cuadrado">Cuadrado</label><br>    
+
+
+    <label for="base">Introduce la base</label>    
+        <input type="text" id="base"><br>
+    
+    <label for="altura">Introduce la altura</label>    
+        <input type="text" id="altura"><br>    
+
+    <input id="Calcular" type="button" value="Calcular" onclick="calcularArea()"><br>
+
+    <label for="resultado">Resultado</label>    
+        <input type="text" id="resultado"><br>
+
+    <input id="Borrar" type="button" value="Borrar" onclick="borrar()"><br>    
+
+</body>
+
+</html>

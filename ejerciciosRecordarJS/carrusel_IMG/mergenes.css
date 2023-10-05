@@ -1,0 +1,23 @@
+#imagen {
+    max-height: 400px; /* Limita el ancho máximo al tamaño del contenedor */
+    min-height: 400px; /* Limita el ancho máximo al tamaño del contenedor */
+    width: auto; /* Mantiene la relación de aspecto original */
+    display: block; /* Elimina el espacio extra debajo de las imágenes */
+    margin: 0 auto; /* Centrar horizontalmente */
+}
+
+#gallery {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta la altura del contenedor al 100% de la ventana */
+    position: relative; /* Agrega posición relativa al contenedor para posicionar los botones */
+}
+#prevButton {
+    left: 10px; /* Posición a la izquierda del contenedor */
+}
+
+#nextButton {
+    right: 10px; /* Posición a la derecha del contenedor */
+}
